@@ -1,0 +1,19 @@
+foo(x, y): ((x*y+2)*(25-x/y))/(3-(x+2*y));
+print;
+myfoo2(z): z*z+4;
+myvar(i)=15;
+bg(f)=25;
+ccc=myfoo2(bg+myvar)*15+foo(bg*25, (6*myfoo2(myvar-10)));
+{
+myvar(i)=5;
+bg(f)=40;
+{
+myvar(i)=35;
+print;
+}
+print;
+}
+print myvar;
+print ccc;
+bg=ccc*myvar;
+print;
